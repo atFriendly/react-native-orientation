@@ -1,3 +1,5 @@
+## 只是改android/build.gradle 的 Build Tool Version 到 25.0.3
+
 ## react-native-orientation
 Listen to device orientation changes in react-native and set preferred orientation on screen to screen basis.
 

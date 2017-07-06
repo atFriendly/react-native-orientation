@@ -29,3 +29,5 @@ npm-debug.log
 *.iml
 
 README.md
+
+*.md

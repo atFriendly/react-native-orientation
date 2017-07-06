@@ -1,17 +1,7 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 ## 只是改android/build.gradle 的 Build Tool Version 到 25.0.3
 
-## react-native-orientation
-Listen to device orientation changes in react-native and set preferred orientation on screen to screen basis.
-=======
 ## React Native Orientation
 [![npm version](https://badge.fury.io/js/react-native-orientation.svg)](https://badge.fury.io/js/react-native-orientation)
->>>>>>> yamill/master
-=======
-## React Native Orientation
-[![npm version](https://badge.fury.io/js/react-native-orientation.svg)](https://badge.fury.io/js/react-native-orientation)
->>>>>>> yamill/master
 
 Listen to device orientation changes in React Native applications and set preferred orientation on a per screen basis. Works on both Android and iOS.
 
@@ -138,7 +128,6 @@ import Orientation from 'react-native-orientation';
 ```javascript
 export default class AppScreen extends Component {
   // ...
-<<<<<<< HEAD
 
   componentWillMount() {
     // The getOrientation method is async. It happens sometimes that
@@ -146,15 +135,6 @@ export default class AppScreen extends Component {
     // `getInitialOrientation` returns directly because its a constant set at the
     // beginning of the JS runtime.
 
-=======
-
-  componentWillMount() {
-    // The getOrientation method is async. It happens sometimes that
-    // you need the orientation at the moment the JS runtime starts running on device.
-    // `getInitialOrientation` returns directly because its a constant set at the
-    // beginning of the JS runtime.
-
->>>>>>> yamill/master
     const initial = Orientation.getInitialOrientation();
     if (initial === 'PORTRAIT') {
       // do something

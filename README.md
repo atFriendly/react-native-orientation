@@ -1,5 +1,3 @@
-## 只是改android/build.gradle 的 Build Tool Version 到 25.0.3
-
 ## React Native Orientation
 [![npm version](https://badge.fury.io/js/react-native-orientation.svg)](https://badge.fury.io/js/react-native-orientation)
 

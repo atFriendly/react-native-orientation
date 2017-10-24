@@ -27,7 +27,3 @@ project.xcworkspace
 node_modules/
 npm-debug.log
 *.iml
-
-README.md
-
-*.md
